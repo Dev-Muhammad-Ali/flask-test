@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PouchParade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="PouchParade_Logo.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
+</head>
+<body>
+
+    <nav>
+        <span>Pouc<span class="name">hP</span>arade</span>
+
+        <ul class="sidebar">
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <ul class="navbar">
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a class="active" href="about.html">About</a></li>
+            <li class="hideOnMobile"><a href="product.html">Products</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact Us</a></li>
+            <li onclick="displaySidebar()" class="showOnMobile ">
+                <div class="hamburger">
+                    <input class="checkbox" type="checkbox" />
+                    <svg fill="none" viewBox="0 0 50 50" height="50" width="50">
+                      <path
+                        class="lineTop line"
+                        stroke-linecap="round"
+                        stroke-width="4"
+                        stroke="black"
+                        d="M6 11L44 11"
+                      ></path>
+                      <path
+                        stroke-linecap="round"
+                        stroke-width="4"
+                        stroke="black"
+                        d="M6 24H43"
+                        class="lineMid line"
+                      ></path>
+                      <path
+                        stroke-linecap="round"
+                        stroke-width="4"
+                        stroke="black"
+                        d="M6 37H43"
+                        class="lineBottom line"
+                      ></path>
+                    </svg>
+                  </div>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="about">
+        <h1>About Us <span></span></h1>
+        <div class="container">
+            <p>Welcome to PouchParade, your go-to destination for stylish and functional pouches! We believe that fashion meets convenience in the little details, and our carefully curated collection of wallets, wristlets, and pouches is designed to keep your essentials organized while adding a touch of elegance to your everyday life.
+
+            Our pouches are crafted with high-quality materials, featuring trendy designs, spacious compartments, and versatile straps for easy carrying. Whether you're looking for a sleek wallet for daily use, a chic wristlet for a night out, or a practical organizer for your travel needs, we've got you covered.
+                
+            At PouchParade, we are committed to providing products that blend fashion with functionality. Explore our collection today and find the perfect pouch to complement your style!</p>
+        </div>
+    </section>
+    
+
+    <footer>
+        <h1>Pouc<span>hP</span>arade</h1>
+        <div class="info">
+            <h3>Contact Information</h3>
+            <ul>
+                <li><strong>Name :- </strong> Unknown</li>
+                <li><strong>Email :- </strong>company@info.com</li>
+                <li><strong>Contact :- </strong>XXX XXXX XXXX</li>
+            </ul>
+        </div>
+        <div class="links">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="social-links">
+            <h3>Social Media Links</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Tik Tok</a></li>
+                <li><a href="#">Threads</a></li>
+            </ul>
+        </div>
+        <span class="divider"></span>
+        <div class="copyright">
+            <span> Copyright © <strong>PouchParade. </strong> All rights reserved </span><br> 
+            <span>Designed By <a href="#" target="_blank" rel="noopener noreferrer">Muhammad Ali</a></span>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
